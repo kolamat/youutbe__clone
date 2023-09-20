@@ -1,13 +1,14 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Box } from "@mui/material";
 import {
-  ChannelDetail,
-  Feed,
   Navbar,
-  SearchFeed,
+  Feed,
   VideoDetail,
+  ChannelDetail,
+  SearchFeed,
 } from "./components";
-const app = () => {
+
+const App = () => {
   <BrowserRouter>
     <Box sx={{ backgroundColor: "#000" }}>
       <Navbar />
@@ -21,4 +22,4 @@ const app = () => {
   </BrowserRouter>;
 };
 
-export default app;
+export default App;
